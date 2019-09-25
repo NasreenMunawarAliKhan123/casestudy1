@@ -1,0 +1,216 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-25T07:10:12.296Z",
+        "line": 2,
+        "name": "",
+        "description": "",
+        "id": "registration;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15174311500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "open the url of testmeapp",
+            "match": {
+              "location": "Stepdef.start()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5545688500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "click the signup button",
+            "match": {
+              "location": "Stepdef.signup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the registration page is displayed",
+            "match": {
+              "location": "Stepdef.regipage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 251779600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter the username",
+            "match": {
+              "location": "Stepdef.username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199054000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter the firstname",
+            "match": {
+              "location": "Stepdef.firstname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162316800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter the lastname",
+            "match": {
+              "location": "Stepdef.lastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 209529200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter the password",
+            "match": {
+              "location": "Stepdef.password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191106300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter the confirmpassword",
+            "match": {
+              "location": "Stepdef.cpassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134255400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter the gender",
+            "match": {
+              "location": "Stepdef.gender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 341127200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter the emailid",
+            "match": {
+              "location": "Stepdef.emailid()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237767500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "specify the mobileno",
+            "match": {
+              "location": "Stepdef.mobile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166946600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "specify the dob",
+            "match": {
+              "location": "Stepdef.dob()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217472700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "specify the address",
+            "match": {
+              "location": "Stepdef.address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194563000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "select the securityquestion",
+            "match": {
+              "location": "Stepdef.sq()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130122000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "select the answer",
+            "match": {
+              "location": "Stepdef.answer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 920427400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "click Register",
+            "match": {
+              "location": "Stepdef.reg()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "registration",
+    "description": "",
+    "id": "registration",
+    "keyword": "Feature",
+    "uri": "classpath:casestudyfiles/TestMe.feature",
+    "tags": []
+  }
+]
